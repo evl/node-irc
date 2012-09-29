@@ -213,7 +213,7 @@ method unless you know what you're doing, instead use one of the methods below.
 Joins the specified channel.
 
 `callback` is automatically subscribed to the `join#channel` event, but removed
-after the first invocation.
+after the first invocation. `channel` supports multiple JOIN arguments as a space separated string (similar to the IRC protocol).
 
 ### Client.part(channel, callback)
 

@@ -52,6 +52,7 @@ or to a particular channel:
 At the moment there are functions for joining:
 
     client.join('#yourchannel');
+    client.join('#yourchannel yourpass');
 
 parting:
 
